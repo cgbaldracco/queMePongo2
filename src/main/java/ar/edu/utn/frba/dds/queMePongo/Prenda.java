@@ -1,7 +1,5 @@
 package ar.edu.utn.frba.dds.queMePongo;
 
-import ar.edu.utn.frba.dds.queMePongo.exceptions.PrendaInvalidaException;
-
 public class Prenda {
   private TipoPrenda tipoPrenda;
   private Material material;

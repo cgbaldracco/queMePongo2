@@ -11,13 +11,16 @@ public class TipoPrenda {
   static TipoPrenda PANTALON = new TipoPrenda(Categoria.PARTE_INFERIOR);
   static TipoPrenda BUZO = new TipoPrenda(Categoria.PARTE_SUPERIOR);
   static TipoPrenda CAMPERA = new TipoPrenda(Categoria.ABRIGO);
-  static TipoPrenda ZAPATO = new TipoPrenda(Categoria.CALZADO);
-  static TipoPrenda ZAPATILLA = new TipoPrenda(Categoria.CALZADO);
+  static TipoPrenda ZAPATOS = new TipoPrenda(Categoria.CALZADO);
+  static TipoPrenda ZAPATILLAS = new TipoPrenda(Categoria.CALZADO);
   static TipoPrenda BLUSA = new TipoPrenda(Categoria.PARTE_SUPERIOR);
   static TipoPrenda SHORT = new TipoPrenda(Categoria.PARTE_INFERIOR);
   static TipoPrenda MALLA = new TipoPrenda(Categoria.PARTE_INFERIOR);
-  static TipoPrenda SANDALIA = new TipoPrenda(Categoria.CALZADO);
+  static TipoPrenda SANDALIAS = new TipoPrenda(Categoria.CALZADO);
   static TipoPrenda AROS = new TipoPrenda(Categoria.ACCESORIO);
+  static TipoPrenda CHOMBA = new TipoPrenda(Categoria.PARTE_SUPERIOR);
+  static TipoPrenda CAMISA = new TipoPrenda(Categoria.PARTE_SUPERIOR);
+  static TipoPrenda PANTALON_DE_VESTIR = new TipoPrenda(Categoria.CALZADO);
 
   public Categoria obtenerCategoria() {
     return this.categoria;

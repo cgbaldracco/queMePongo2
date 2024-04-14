@@ -25,13 +25,6 @@ public class Borrador {
     return prenda;
   }
 
-  /*public void especificarTipo(TipoPrenda tipoPrenda) {
-    if(tipoPrenda == null) {
-      throw new TipoPrendaInvalidoException("El tipo de prenda ingresado no es correcto");
-    }
-    this.tipoPrenda = tipoPrenda;
-  }*/
-
   public void especificarMaterial(Material material) {
     if(material == null) {
       throw new MaterialInvalidoException("El material ingresado no es correcto");
