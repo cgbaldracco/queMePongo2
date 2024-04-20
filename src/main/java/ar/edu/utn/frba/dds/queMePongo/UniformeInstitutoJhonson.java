@@ -5,14 +5,15 @@ public class UniformeInstitutoJhonson implements UniformeFactory {
     Borrador borrador = new Borrador(TipoPrenda.CAMISA);
     borrador.especificarColorPrimario(new Color(255, 255, 255));
     borrador.especificarMaterial(Material.TELA);
+    borrador.especificarTrama(Trama.LISA);
     return borrador.crearPrenda();
   }
 
   public Prenda fabricarParteInferior() {
     Borrador borrador = new Borrador(TipoPrenda.PANTALON_DE_VESTIR);
-    //perdon, con los rgb mando fruta porque no tenia ganas de buscarlos
     borrador.especificarColorPrimario(new Color(0, 0, 0));
     borrador.especificarMaterial(Material.TELA);
+    borrador.especificarTrama(Trama.LISA);
     return borrador.crearPrenda();
   }
 
@@ -20,6 +21,7 @@ public class UniformeInstitutoJhonson implements UniformeFactory {
     Borrador borrador = new Borrador(TipoPrenda.ZAPATOS);
     borrador.especificarColorPrimario(new Color(0, 0, 0));
     borrador.especificarMaterial(Material.CUERO);
+    borrador.especificarTrama(Trama.LISA);
     return borrador.crearPrenda();
   }
 }

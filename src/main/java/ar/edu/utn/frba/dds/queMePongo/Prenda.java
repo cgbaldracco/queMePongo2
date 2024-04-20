@@ -30,16 +30,36 @@ public class Prenda {
     return colorSecundario;
   }
 
+  private Trama getTrama() {
+    return trama;
+  }
+
+  public Trama obtenerTrama() {
+    return getTrama();
+  }
+
+  public Color obtenerColorPrimario() {
+    return getColorPrimario();
+  }
+
+  public Color obtenerColorSecundario() {
+    return getColorSecundario();
+  }
+
+  public Material obtenerMaterial() {
+    return getMaterial();
+  }
+
+  public TipoPrenda obtenerTipoPrenda() {
+    return getTipoPrenda();
+  }
+
   public void indicarColorSecundario(Color colorSecundario) {
     this.setColorSecundario(colorSecundario);
   }
 
   private void setColorSecundario(Color colorSecundario) {
     this.colorSecundario = colorSecundario;
-  }
-
-  public Trama getTrama() {
-    return trama;
   }
 
   public Categoria obtenerCategoria() {
